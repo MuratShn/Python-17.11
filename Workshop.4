@@ -1,0 +1,19 @@
+while(True):
+    try:
+        notu=int(input("0 ile 100 arası notunu gir"))
+        if  notu<0 or notu>100:
+            print("Girdiğiniz not değeri 0 ile 100 arasında olmalıdır")
+        else:
+            if notu>84:
+                print("Notun 5")
+            elif notu<85 and notu>69:
+                print("Notun 4")
+            elif notu<70 and notu>54:
+                print("Notun 3")
+            elif notu<55 and notu>44:
+                print("Notun 2")
+            else:
+                print("Notun 1")
+            break
+    except:##eğer if"i karşılanmazsa girilen sayı buraya duser ve hata mesajı alınır
+            print("Yanlış giriş yaptınız sayı girişi yapınız")
