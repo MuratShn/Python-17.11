@@ -1,0 +1,26 @@
+x = "AAA"#Global olarak tanımlanmıs degısken yanı her blokta satırda tanmımlıdır
+def yazdırma1():
+    print(x)
+yazdırma1()
+
+print("///////////////////////")
+
+def yazdırma2():
+    y ="BBB" #Lokal olarak tanımlanmıs yanı sadece tanımladıgın kod satırında gecerli.
+#print(y)#Burda hata almamın sebebı ıse y sadece yazdırma2 Defin içinde tanımlı.
+
+
+def toplama(a,b): #2 Tane parametre gonderıcem sana demek default olarak ayarlamak ıstersen a=5 b=2 
+    return a+b
+print(toplama(5,4))
+
+print("///////////////////////")
+
+def dikdortgenalan(genıslık,yukseklık):
+    alan = float(genıslık) * float(yukseklık)
+    print(alan)
+    return alan
+genıslık =input("Genislik girin")
+yukseklık = input("Yukseklık girin")
+
+    
