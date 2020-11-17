@@ -1,0 +1,36 @@
+#conditionals şart demektir
+istenenkredi= 100000
+hesap=9800
+minimmumolmasigerekenhesap=10000
+if hesap>=minimmumolmasigerekenhesap:
+    print("kredi verilebilir")
+    print("ödemeler hesaplandı")
+    
+elif hesap>=9000 and hesap<=9999 :
+    
+    print("müdüre sorulacak")
+
+else:
+    print("kredi almak için yeterli bakiyeniz bulunanamamaktadır")
+
+print("işlem sonu")
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ #if eğer demek bunu if hesap>=10000 diye yazabilir
+ #  yada bir değiken belirtip devam edebiliriz
+ #eğer if seçeneği doğru degılse else secenegı dogrudur (başka seçenek yok elif tutmamıs ıse baska bir yol)
+ #if dogruysa onun seçenekleri else dogruysa onun secenekleri gorunur
+ #elif ise 3.secenek eger istenilen miktara yakınsa eger müşteri kaybetmemek için verilenilir gibisinden
