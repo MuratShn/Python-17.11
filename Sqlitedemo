@@ -1,0 +1,11 @@
+import sqlite3
+
+def listele():
+    baglantı = sqlite3.connect("chinook/chinook.db") #sql veri tabanına baglan adresı bu
+    veri = baglantı.execute("select * from customers") #baglantıda calıstır su sorguyu
+                                                        #yıldız herseyı getırır name surname dıye secebılırsın 
+    for satır in veri: # satıları gez 
+        print(satır[0]) # satırdakı 0 elemanı getır 
+
+    baglantı.close()#baglantıyı kapat
+listele()#getir
