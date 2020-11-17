@@ -1,0 +1,21 @@
+
+sehirler = ["Ankara" , "İstanbul" , "İzmir"]
+for sehir in sehirler:
+    print(sehir)
+
+for sayi in range(10):    # 0 dan 10 a kadar sınır 10 oldugu 9da biter
+    print(sayi)
+
+for sayi2 in range(1,10):   #burdada 1 den basla sınıra kadar
+    print(sayi2)
+
+
+for rakam in range (0,10,3):   #burda yazdıgımız 3un amacı baslangıctakı sayıya 3 koyarak ılerler 
+    print(rakam)
+
+meyve = ["ELMA","MUZ","ÇİLEK"]
+for x in meyve:
+    print(x)
+    if x =="MUZ":#buyuktur kucuktur de kullanıluır
+        break
+        
