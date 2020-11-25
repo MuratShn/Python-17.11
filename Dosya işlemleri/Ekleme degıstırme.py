@@ -1,4 +1,4 @@
-dosya = open("Yazılım.txt","w") # w:yazmak eger yazılım ısmınde dosya varsa onu sılıp senın yazdıkları yazar eger oyle dosya yoksa olusturup yazdıkların yazar
+dosya = open("Yazılım.txt","w") # w:yazmak eger yazılım ısmınde dosya varsa onu sılıp senın yazdıklarını yazar eger oyle degilse dosya yoksa olusturup yazdıkların yazar
 dosya.write("Naber")
 
 dosya = open("Yazılım.txt","a")
